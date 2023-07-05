@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{ 
+    color: white;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    width: 500px;
+    height: 500px;
+    margin: 50px auto; 
+    padding: 110px 200px 100px 100px; 
+    
+
+}
+body{
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.textfield{
+    display: block;
+    width: 300px;
+    height: 40px;
+    border-radius: 2rem;
+    background-color: #7C4F59;
+    
+}
+.passwordfield{
+    display: block;
+    width: 300px;
+    height: 40px;
+    border-radius: 2rem;
+    background-color: #7C4F59;
+}
+#button{
+    background-color:#9c1337;
+  width: 300px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  border-radius: 2rem;
+
+}
+.center{
+    display: block;
+    margin: 0px auto;
+    width: 500px;
+    height: 500px;
+    padding: 0px 100px 100px 100px;
+}
+::placeholder{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
